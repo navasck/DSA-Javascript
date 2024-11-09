@@ -1,3 +1,7 @@
+// Linear Search (O(n))
+
+// Linear search is the simplest search algorithm where we iterate over each element of the array and compare it with the target value.
+
 const studentsDatabase = ['navas', 'liyana', 'izan', 'anees'];
 
 const findStudent = (allStudents, studentName) => {
@@ -12,8 +16,8 @@ const findStudent = (allStudents, studentName) => {
   return -1; // Return -1 if target is not found
 };
 
-findStudent(studentsDatabase, 'izan'); // Output: Found erick
-findStudent(studentsDatabase, 'aslam'); // Output: alex not found
+findStudent(studentsDatabase, 'izan'); // Output: Found izan
+findStudent(studentsDatabase, 'aslam'); // Output: aslam not found
 
 console.log(findStudent(studentsDatabase, 'liyana')); // Output: 1
 console.log(findStudent(studentsDatabase, 'rabiya')); // Output: -1
